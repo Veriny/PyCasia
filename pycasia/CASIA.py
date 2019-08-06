@@ -10,7 +10,7 @@ from urllib.request import urlretrieve
 
 import numpy as np
 
-from scipy.misc import toimage
+from scipy.misc.pilutil import toimage
 
 from tqdm import tqdm
 
